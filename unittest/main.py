@@ -14,7 +14,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(result, exptected)
 
 t = TestCalculator()
-t.test()
+try:
+    t.test()
+except Exception as e:
+    print("Test ADD failed ...")
+    print(e)
 
 # targil
 # 1. add function multiply
