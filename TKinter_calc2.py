@@ -60,3 +60,6 @@ root.mainloop() # blocking
 
 print("Goodbye...")
 
+# targil
+# validate so number cannot by over 1000 and under -1000
+
